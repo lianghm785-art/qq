@@ -18,7 +18,7 @@ def get_ai_remind():
     }
     
     payload = {
-        "model": "doubao-pro",  # 可选 doubao-pro 或 doubao-lite
+        "model": "doubao-1-5-lite-32k-250115", 
         "messages": [
             {"role": "system", "content": "你是一个温柔贴心的晚安助手，说话简短温暖。"},
             {"role": "user", "content": "用温柔简短的语气提醒我该睡觉了，关心一点，15字左右"}
